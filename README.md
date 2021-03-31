@@ -47,6 +47,19 @@ Using the matlab online one can upload all files of the folder 📂.
     - progressbar.m
     - test_optimal_embedding.m
 
+## Outputs
+
+Output on running compare.m file, data is then visualised using matplotlib
+
+![WhatsApp Image 2021-03-31 at 7 31 20 PM](https://user-images.githubusercontent.com/37441702/113157206-4e197280-9258-11eb-9b29-bce34770f397.jpeg)
+
+Output on running performance.m
+
+![WhatsApp Image 2021-03-31 at 7 33 29 PM](https://user-images.githubusercontent.com/37441702/113157214-4fe33600-9258-11eb-86d3-06780b978dd7.jpeg)
+![WhatsApp Image 2021-03-31 at 7 33 14 PM](https://user-images.githubusercontent.com/37441702/113157217-51146300-9258-11eb-971d-d3e054bf42f3.jpeg)
+
+
+
 ## Authors
   - [Rishi Sharma](https://github.com/kampaitees)
   - [Sharmila Biswas](https://github.com/Shormi5399)
