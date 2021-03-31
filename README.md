@@ -6,11 +6,11 @@ Matlab code implementation for the paper "cost efficient framework and algorithm
 This project is a matlab implementation of the paper "**cost efficient framework and algorithm for embedding dynamic virtual network requests**" which outputs various insights from the paper and visual analysis of the results.
 
 The project compares 5 algorithms
- 1. DVNMA_NS -> The approach proposed in this work for reconfiguring the evolved virtual network without any share strategy
- 2. DVNMA_SS -> The approach proposed in this work for reconfiguring the evolved virtual network using the self share strategy while allocating bandwidth resources
- 3. DVNMA_SS -> The approach proposed in this work for reconfiguring the evolved virtual network using the mixed share strategy while allocating bandwidth resources
- 4. Greedy -> The extended algorithm in which the greedy strategy is used for greedily picking the substrate node having enough node resource tohost a virtual node
- 5. Static -> The extended algorithm in which the random picking strategy is used for selecting substrate node to host a virtual node.
+ 1. **DVNMA_NS** -> The approach proposed in this work for reconfiguring the evolved virtual network without any share strategy
+ 2. **DVNMA_SS** -> The approach proposed in this work for reconfiguring the evolved virtual network using the self share strategy while allocating bandwidth resources
+ 3. **DVNMA_SS** -> The approach proposed in this work for reconfiguring the evolved virtual network using the mixed share strategy while allocating bandwidth resources
+ 4. **Greedy** -> The extended algorithm in which the greedy strategy is used for greedily picking the substrate node having enough node resource tohost a virtual node
+ 5. **Static** -> The extended algorithm in which the random picking strategy is used for selecting substrate node to host a virtual node.
 
 ### Motivation
 The given research paper provides an in depth analysis of algorithms for embedding dynamic virtual network request. Our matlab
@@ -48,7 +48,7 @@ Using the matlab online one can upload all files of the folder 📂.
     - progressbar.m
     - test_optimal_embedding.m
 
-## Outputs
+## Results
 
 Output on running compare.m file, data is then visualised using matplotlib
 
@@ -61,7 +61,7 @@ Output on running performance.m
 
 
 
-## Authors
+## Contributors
   - [Rishi Sharma](https://github.com/kampaitees)
   - [Sharmila Biswas](https://github.com/Shormi5399)
   - [Vedant Mehra](https://github.com/vmehra25)
