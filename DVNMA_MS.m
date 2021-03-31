@@ -1,4 +1,4 @@
-function [ substrate, satisfied_requests, indeces ] = DVNMA_NS( dynamic_requests, previous_requests, DF, DT )
+function [ substrate, satisfied_requests, indeces ] = DVNMA_MS( dynamic_requests, previous_requests, DF, DT )
 
 %OPTIMAL_EMBEDDING Finds the most optimal embedding of the set of requests
 %Sk at priority k using Cplex
