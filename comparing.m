@@ -183,7 +183,7 @@ for timeslot = 1:iterations
 
         for i = 1:size(K_requests, 1)
 
-            [K_substrate, success] = karnaugh_map_embedding(K_requests(i, :), K_substrate);
+            [K_substrate, success] = DVNMA_NS(K_requests(i, :), K_substrate);
 
             if(success)
 
@@ -280,7 +280,7 @@ for timeslot = 1:iterations
 
         for i = 1:size(KE_requests, 1)
 
-            [KE_substrate, success] = karnaugh_map_EDI_embedding(KE_requests(i, :), KE_substrate);
+            [KE_substrate, success] = DVNMA_SS(KE_requests(i, :), KE_substrate);
 
             if(success)
 
