@@ -1,4 +1,4 @@
-function [ karnaugh_substrate, success ] = karnaugh_map_embedding( request, karnaugh_substrate  )
+function [ karnaugh_substrate, success ] = DVNMA_NS( request, karnaugh_substrate  )
 %   karnaugh_map_embedding: do karnaugh map embedding
 %   INPUT request: virtual network request (priority area timeslot application freq time operator)
 %   INPUT karnaugh_substrate
