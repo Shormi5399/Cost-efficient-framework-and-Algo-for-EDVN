@@ -369,7 +369,7 @@ for timeslot = 1:iterations
         
         S_O_requests = [existing_S_O_networks; S_O_requests; new_requests];
         
-        [S_O_substrate, existing_S_O_networks, S_O_requests] = static_optimal_allocation(existing_S_O_networks, S_O_substrate, S_O_requests, DF, DT, 3);
+        [S_O_substrate, existing_S_O_networks, S_O_requests] = static_allocation(existing_S_O_networks, S_O_substrate, S_O_requests, DF, DT, 3);
         
         for i=1:size(existing_S_O_networks)
             if(existing_S_O_networks(i, 1) == 1)
