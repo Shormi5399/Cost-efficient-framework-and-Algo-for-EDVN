@@ -1,5 +1,5 @@
 #  A cost efficient framework and algorithm for embedding dynamic virtual network requests
-Implementation for the paper "cost efficient framework and algorithm for embedding dynamic virtual network requests"
+Implementation for the paper "cost efficient framework and algorithm for embedding dynamic virtual network requests". <br>
 Link: [ A cost efficient framework and algorithm for embedding dynamic virtual network requests](https://dl.acm.org/doi/10.1016/j.future.2012.08.002)
 
 # Project for CO463
@@ -32,7 +32,7 @@ One can also use matlab online for the same.
  ``` 
   - python 3.6.8 
   - python pip
-  - matlab online / offline
+  - matlab online / Matlab R2021a (offline)
   - matplotlib 3.4.0
  ```
 #### After installing the above clone this repository and paste the folder in matlab environment.  
