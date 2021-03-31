@@ -10,9 +10,9 @@ third_requests = [3 12 1 7 4 3 8 1; 3 4 1 6 2 2 9 2; 3 1 1 5 1 1 10 1];
 
 satisfied_requests = [];
 tic
-[optimal_substrate, satisfied_requests] = optimal_embedding(first_requests, satisfied_requests, M, N);
-[optimal_substrate, satisfied_requests] = optimal_embedding(third_requests, satisfied_requests, M, N);
-[optimal_substrate, satisfied_requests] = optimal_embedding(second_requests, satisfied_requests, M, N);
+[optimal_substrate, satisfied_requests] = DVNMA_MS(first_requests, satisfied_requests, M, N);
+[optimal_substrate, satisfied_requests] = DVNMA_MS(third_requests, satisfied_requests, M, N);
+[optimal_substrate, satisfied_requests] = DVNMA_MS(second_requests, satisfied_requests, M, N);
 toc
 
 
