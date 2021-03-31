@@ -1,4 +1,4 @@
-function [ substrate, embedded_O_requests, buffered_requests] = static_optimal_allocation(existing_networks, O_substrate, optimal_requests, DF, DT, traffic_types)
+function [ substrate, embedded_O_requests, buffered_requests] = static_allocation(existing_networks, O_substrate, optimal_requests, DF, DT, traffic_types)
 %UNTITLED2 Summary of this function goes here
 %   Detailed explanation goes here
 
@@ -28,7 +28,7 @@ function [ substrate, embedded_O_requests, buffered_requests] = static_optimal_a
                 
                 
                 if(size(current_requests) ~= 0)
-                   [substrate, satisfied_requests, indeces] = static_optimal_embedding(existing_networks, O_substrate, current_requests, previous_requests , DF, DT);   
+                   [substrate, satisfied_requests, indeces] = static_embedding(existing_networks, O_substrate, current_requests, previous_requests , DF, DT);   
                 end  
                 
 
