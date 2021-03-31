@@ -27,7 +27,7 @@ function [ O_substrate, embedded_O_requests, buffered_requests] = optimal_alloca
                 end  
                 
                 if(size(current_requests) ~= 0)
-                   [O_substrate, satisfied_requests, indeces] = optimal_embedding(current_requests, previous_requests , DF, DT);
+                   [O_substrate, satisfied_requests, indeces] = DVNMA_MS(current_requests, previous_requests , DF, DT);
                     
                 end
                 
